@@ -166,11 +166,10 @@ void do_binary_search(const char *wordsFileName, char **pointers, int count)
         searching[strcspn(searching, "\n")] = '\0';
 
      
-        // for (int i = 0; searching[i] != '\0'; i++) {
-        //     searching[i] = (char)tolower((unsigned char)searching[i]);
-        // }
+        for (int i = 0; searching[i] != '\0'; i++) {
+            searching[i] = (char)tolower((unsigned char)searching[i]);
+        }
 
-        //uneeded
 
       
         printf("%s\n", searching);
