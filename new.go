@@ -40,4 +40,6 @@ func main() {
 	fmt.Println(add(5, 5))
 
 	test()
+
+	// test
 }
