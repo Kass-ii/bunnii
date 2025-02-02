@@ -3,6 +3,8 @@
 #include <ctype.h>
 #include <string.h>
 
+//test
+
 // function signatures all go up here to help the compiler
 
 int open_file(const char *filename, int mode,char **outPointers, int *outCount, char *paragraph);
